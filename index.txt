@@ -11,3 +11,24 @@
               i never worried about failing and falling or going down, i learned how bounce back after that
 
                 i won't tell i will learn from my mistakes, but i will try to not repeat same mistake. 
+
+SED is "Operational" file name
+      
+                                   SED= Find+Replace+edit
+
+-sed 's/old/new/' file.txt( it will replace old name to new, s: stands for substitute)
+-sed 's/old/new/g' file.txt(it will replace all occurences, g= global it match)
+
+Key Symbols:
+
+s-> substitute
+g->global replace 
+-i-> edit file
+-n->silent mode
+d-> delete
+p-> print
+
+TIP:
+grep -> find txt
+sed -> modify txt
+awk -> advanced processing 
